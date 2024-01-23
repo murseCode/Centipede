@@ -1,0 +1,23 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+  }
+  
+  canvas {
+    border: 1px solid white;
+  }
+  
